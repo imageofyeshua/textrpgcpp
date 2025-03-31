@@ -13,6 +13,8 @@ struct StatBlock {
     Strength = s;
     Intellect = i;
   }
+  stattype getStrength() { return Strength; }
+  stattype getIntellect() { return Intellect; }
 };
 
-#endif // !STATBLOCK_H
+#endif // !STATBLOCK_

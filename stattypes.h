@@ -2,6 +2,6 @@
 #define STATTYPES_H
 #include <cstdint>
 
-typedef std::uint8_t stattype;
+typedef std::uint16_t stattype;
 
 #endif // !STATTYPES_H
